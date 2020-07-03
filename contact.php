@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
   $text = "you have received an e-mail from " .$name.".\n\n".$message;
   
   mail($mailTo, $subject, $text, $headers);
-  header("Location: index.htmlmailsend");
+  header("Location: index.html");
   
   
   
